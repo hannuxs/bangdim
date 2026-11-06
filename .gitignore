@@ -1,0 +1,15 @@
+# Python portable + library (dibuat ulang oleh install.bat)
+runtime/
+__pycache__/
+*.pyc
+
+# Data bisnis & arsip upload (database, backup, laporan, log) - tidak ikut repo
+data/
+
+# File sumber / contoh dari user (berisi data penjualan)
+FILE LY*.pdf
+*.pdf
+
+# Lain-lain
+*.tmp
+.vscode/

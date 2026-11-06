@@ -1,0 +1,20 @@
+# Konfigurasi Streamlit khusus proyek ini (dibaca saat run.bat dijalankan dari folder ini)
+
+[server]
+# headless = true -> tidak ada pertanyaan email di terminal; browser dibuka oleh run.bat
+headless = true
+port = 8501
+# "localhost" = hanya bisa dibuka dari PC ini.
+# Ganti ke "0.0.0.0" bila ingin dibuka dari HP/PC lain di WiFi yang sama.
+address = "localhost"
+maxUploadSize = 200
+fileWatcherType = "none"
+runOnSave = false
+
+[browser]
+gatherUsageStats = false
+serverAddress = "localhost"
+
+[client]
+toolbarMode = "minimal"
+showErrorDetails = true

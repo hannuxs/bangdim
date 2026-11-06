@@ -1,0 +1,6 @@
+# File batch Windows wajib CRLF agar goto/label di cmd tidak rusak
+*.bat text eol=crlf
+*.py  text eol=lf
+*.md  text eol=lf
+*.txt text eol=lf
+*.toml text eol=lf
